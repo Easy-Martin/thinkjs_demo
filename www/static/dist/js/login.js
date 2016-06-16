@@ -1,0 +1,2 @@
+webpackJsonp([5],[function(o,n,i){"use strict";var t=i(4);t(function(){t(".btnSub").on("click",function(){t.post("/user/login",t("#formpost").serialize(),function(o){200==o.code?window.location.reload():alert(o.msg)})})})}]);
+//# sourceMappingURL=login.js.map
